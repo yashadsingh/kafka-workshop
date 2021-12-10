@@ -9,6 +9,7 @@ namespace consoleapp
     class Program
     {
         private static readonly CancellationTokenSource cancellatiokenSource = new();
+        private static readonly string _bootstrapServers = "localhost:29092,localhost:39092";
 
         static void Main(string[] args)
         {
@@ -17,10 +18,10 @@ namespace consoleapp
                 KafkaProducer();
             });
 
-            Task.Run(() =>
-            {
-                KafkaConsumer();
-            });
+            //Task.Run(() =>
+            //{
+            //    KafkaConsumer();
+            //});
 
             Console.ReadLine();
         }
@@ -29,7 +30,7 @@ namespace consoleapp
         {
             var consumerConfig = new ConsumerConfig
             {
-                BootstrapServers = "localhost:9092",
+                BootstrapServers = _bootstrapServers,
                 GroupId = "foo",
                 AutoOffsetReset = AutoOffsetReset.Earliest
             };
@@ -51,7 +52,7 @@ namespace consoleapp
         {
             var producerConfig = new ProducerConfig
             {
-                BootstrapServers = "localhost:9092",
+                BootstrapServers = _bootstrapServers,
                 ClientId = Dns.GetHostName(),
             };
 
@@ -65,11 +66,11 @@ namespace consoleapp
                     {
                         if (task.IsFaulted)
                         {
-                            Console.WriteLine($"Faulted: Wrote to offset: {task.Result.Offset}");
+                            Console.WriteLine($"Faulted: Wrote to offset: {task.Result.Offset} for message index {index}");
                         }
                         else
                         {
-                            Console.WriteLine($"Success: Wrote to offset: {task.Result.Offset}");
+                            Console.WriteLine($"Success: Wrote to offset: {task.Result.Offset} for message index {index}");
                         }
                     });
                     await Task.Delay(1000);
