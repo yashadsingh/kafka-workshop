@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "1njzH1GxiNIMpZIt53BXEj7u45NYnJZmdclzyyAWIk7rKUY+KmQLM/Op8Sp2sO3gJCgPruCwaBjCML+3FTWUiw==",
+  "success": true,
+  "projectFilePath": "D:\\Learning Tech\\kafka-workshop\\consoleapp\\consoleapp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\singh\\.nuget\\packages\\confluent.kafka\\1.8.2\\confluent.kafka.1.8.2.nupkg.sha512",
+    "C:\\Users\\singh\\.nuget\\packages\\librdkafka.redist\\1.8.2\\librdkafka.redist.1.8.2.nupkg.sha512",
+    "C:\\Users\\singh\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
