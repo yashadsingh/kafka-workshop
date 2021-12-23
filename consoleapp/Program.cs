@@ -9,46 +9,19 @@ namespace consoleapp
     class Program
     {
         private static readonly CancellationTokenSource cancellatiokenSource = new();
-        private static readonly string _bootstrapServers = "localhost:29092,localhost:39092";
+        private static readonly string _bootstrapServers = "localhost:9092,localhost:9093,localhost:9094";
 
         static void Main(string[] args)
         {
-            Task.Run(() =>
-            {
-                KafkaProducer();
-            });
-
-            //Task.Run(() =>
-            //{
-            //    KafkaConsumer();
-            //});
+            Task.WhenAll(KafkaProducer("my-topic-1"),
+                         KafkaProducer("my-topic-2"),
+                         KafkaProducer("my-topic-3"),
+                         KafkaProducer("my-topic-4"));
 
             Console.ReadLine();
         }
 
-        private static void KafkaConsumer()
-        {
-            var consumerConfig = new ConsumerConfig
-            {
-                BootstrapServers = _bootstrapServers,
-                GroupId = "foo",
-                AutoOffsetReset = AutoOffsetReset.Earliest
-            };
-
-            using (var consumer = new ConsumerBuilder<Ignore, string>(consumerConfig).Build())
-            {
-                consumer.Subscribe("my-topic");
-
-                while (!cancellatiokenSource.IsCancellationRequested)
-                {
-                    var consumeResult = consumer.Consume(cancellatiokenSource.Token);
-                    Console.WriteLine($" Consumed message [{consumeResult.Message.Key}:{consumeResult.Message.Value}]");
-                }
-                consumer.Close();
-            }
-        }
-
-        private static async Task KafkaProducer()
+        private static async Task KafkaProducer(string topicName)
         {
             var producerConfig = new ProducerConfig
             {
@@ -56,24 +29,27 @@ namespace consoleapp
                 ClientId = Dns.GetHostName(),
             };
 
+            list<int> jkjdf = new();
+            jkjdf.Select();
+
             using (var producer = new ProducerBuilder<Null, string>(producerConfig).Build())
             {
                 int index = 1;
                 while (!cancellatiokenSource.IsCancellationRequested)
                 {
-                    var t = producer.ProduceAsync("my-topic", new Message<Null, string> { Value = $"hello world {index}" });
+                    var t = producer.ProduceAsync(topicName, new Message<Null, string> { Value = $"hello world {index}" });
                     t.ContinueWith(task =>
                     {
                         if (task.IsFaulted)
                         {
-                            Console.WriteLine($"Faulted: Wrote to offset: {task.Result.Offset} for message index {index}");
+                            Console.WriteLine($"Faulted: Wrote to offset: {task.Result.Offset} {topicName} >> {index}");
                         }
                         else
                         {
-                            Console.WriteLine($"Success: Wrote to offset: {task.Result.Offset} for message index {index}");
+                            Console.WriteLine($"Success: Wrote to offset: {task.Result.Offset} {topicName} >> {index}");
                         }
                     });
-                    await Task.Delay(1000);
+                    await Task.Delay(5000);
                     index++;
                 }
 
