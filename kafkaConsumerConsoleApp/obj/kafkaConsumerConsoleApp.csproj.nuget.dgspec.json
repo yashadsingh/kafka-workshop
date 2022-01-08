@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Learning Tech\\kafka-workshop\\kafkaConsumerConsoleApp\\kafkaConsumerConsoleApp.csproj": {}
+    "D:\\kafka-workshop\\kafkaConsumerConsoleApp\\kafkaConsumerConsoleApp.csproj": {}
   },
   "projects": {
-    "D:\\Learning Tech\\kafka-workshop\\kafkaConsumerConsoleApp\\kafkaConsumerConsoleApp.csproj": {
+    "D:\\kafka-workshop\\kafkaConsumerConsoleApp\\kafkaConsumerConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Learning Tech\\kafka-workshop\\kafkaConsumerConsoleApp\\kafkaConsumerConsoleApp.csproj",
+        "projectUniqueName": "D:\\kafka-workshop\\kafkaConsumerConsoleApp\\kafkaConsumerConsoleApp.csproj",
         "projectName": "kafkaConsumerConsoleApp",
-        "projectPath": "D:\\Learning Tech\\kafka-workshop\\kafkaConsumerConsoleApp\\kafkaConsumerConsoleApp.csproj",
+        "projectPath": "D:\\kafka-workshop\\kafkaConsumerConsoleApp\\kafkaConsumerConsoleApp.csproj",
         "packagesPath": "C:\\Users\\singh\\.nuget\\packages\\",
-        "outputPath": "D:\\Learning Tech\\kafka-workshop\\kafkaConsumerConsoleApp\\obj\\",
+        "outputPath": "D:\\kafka-workshop\\kafkaConsumerConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

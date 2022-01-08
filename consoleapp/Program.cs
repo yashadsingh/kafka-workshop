@@ -29,9 +29,6 @@ namespace consoleapp
                 ClientId = Dns.GetHostName(),
             };
 
-            list<int> jkjdf = new();
-            jkjdf.Select();
-
             using (var producer = new ProducerBuilder<Null, string>(producerConfig).Build())
             {
                 int index = 1;

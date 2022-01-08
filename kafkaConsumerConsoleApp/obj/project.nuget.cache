@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n+It7JHT5qC/Mf8757xZ9pc05O7dtXRgbO640023nVzeKBwbjopKB+DS4wBELbtcEo49CjsYXrkRChVnhw4KGQ==",
+  "dgSpecHash": "wcajFjlN8QHr+YxvWSw18+YT2VW/HGXHtHMoI9yn0gUcP+/b9oPYbjhXJJTgQQ6O+LpLNf8PD/c25wIrmes2ZQ==",
   "success": true,
-  "projectFilePath": "D:\\Learning Tech\\kafka-workshop\\kafkaConsumerConsoleApp\\kafkaConsumerConsoleApp.csproj",
+  "projectFilePath": "D:\\kafka-workshop\\kafkaConsumerConsoleApp\\kafkaConsumerConsoleApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\singh\\.nuget\\packages\\confluent.kafka\\1.8.2\\confluent.kafka.1.8.2.nupkg.sha512",
     "C:\\Users\\singh\\.nuget\\packages\\librdkafka.redist\\1.8.2\\librdkafka.redist.1.8.2.nupkg.sha512",

@@ -38,3 +38,43 @@ D:\Learning Tech\kafka-workshop\consoleapp\obj\Debug\net5.0\ref\consoleapp.dll
 D:\Learning Tech\kafka-workshop\consoleapp\obj\Debug\net5.0\consoleapp.pdb
 D:\Learning Tech\kafka-workshop\consoleapp\obj\Debug\net5.0\consoleapp.genruntimeconfig.cache
 D:\Learning Tech\kafka-workshop\consoleapp\obj\Debug\net5.0\consoleapp.csproj.CopyComplete
+D:\kafka-workshop\consoleapp\obj\Debug\net5.0\consoleapp.csproj.AssemblyReference.cache
+D:\kafka-workshop\consoleapp\obj\Debug\net5.0\consoleapp.GeneratedMSBuildEditorConfig.editorconfig
+D:\kafka-workshop\consoleapp\obj\Debug\net5.0\consoleapp.AssemblyInfoInputs.cache
+D:\kafka-workshop\consoleapp\obj\Debug\net5.0\consoleapp.AssemblyInfo.cs
+D:\kafka-workshop\consoleapp\obj\Debug\net5.0\consoleapp.csproj.CoreCompileInputs.cache
+D:\kafka-workshop\consoleapp\obj\Debug\net5.0\consoleapp.dll
+D:\kafka-workshop\consoleapp\obj\Debug\net5.0\ref\consoleapp.dll
+D:\kafka-workshop\consoleapp\obj\Debug\net5.0\consoleapp.pdb
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\consoleapp.exe
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\consoleapp.deps.json
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\consoleapp.runtimeconfig.json
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\consoleapp.runtimeconfig.dev.json
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\consoleapp.dll
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\ref\consoleapp.dll
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\consoleapp.pdb
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\Confluent.Kafka.dll
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\runtimes\linux-arm64\native\librdkafka.so
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\runtimes\linux-x64\native\alpine-librdkafka.so
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\runtimes\linux-x64\native\centos6-librdkafka.so
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\runtimes\linux-x64\native\centos7-librdkafka.so
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\runtimes\linux-x64\native\librdkafka.so
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\runtimes\osx-x64\native\librdkafka.dylib
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\runtimes\win-x64\native\libcrypto-1_1-x64.dll
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\runtimes\win-x64\native\librdkafka.dll
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\runtimes\win-x64\native\librdkafkacpp.dll
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\runtimes\win-x64\native\libssl-1_1-x64.dll
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\runtimes\win-x64\native\msvcp140.dll
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\runtimes\win-x64\native\vcruntime140.dll
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\runtimes\win-x64\native\zlib1.dll
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\runtimes\win-x64\native\zstd.dll
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\runtimes\win-x86\native\libcrypto-1_1.dll
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\runtimes\win-x86\native\librdkafka.dll
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\runtimes\win-x86\native\librdkafkacpp.dll
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\runtimes\win-x86\native\libssl-1_1.dll
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\runtimes\win-x86\native\msvcp140.dll
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\runtimes\win-x86\native\vcruntime140.dll
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\runtimes\win-x86\native\zlib1.dll
+D:\kafka-workshop\consoleapp\bin\Debug\net5.0\runtimes\win-x86\native\zstd.dll
+D:\kafka-workshop\consoleapp\obj\Debug\net5.0\consoleapp.csproj.CopyComplete
+D:\kafka-workshop\consoleapp\obj\Debug\net5.0\consoleapp.genruntimeconfig.cache
